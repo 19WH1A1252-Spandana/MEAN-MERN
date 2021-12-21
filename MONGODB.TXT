@@ -1,0 +1,8 @@
+use crud
+ db.createCollection("employee");
+  show collections
+  db.employee.find().pretty();
+  db.employee.insert([{empId:666,empName:'Harry',doj:'26-07-18',salary:65000,gender:'M'}]);
+   db.employee.drop()
+ db.employee.insert([{empId:999,empName:'Dustin',doj:12-08-21,salary:90000,gender:'M',email:'Dustin@gmail.com'}]);
+db.employee.insert([{empId:999,empName:'Lucas',doj:22-06-21,salary:70000,gender:'M',email:'Lucas@gmail.com',password:'LUCAS'}]);
