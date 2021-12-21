@@ -6,3 +6,4 @@ use crud
    db.employee.drop()
  db.employee.insert([{empId:999,empName:'Dustin',doj:12-08-21,salary:90000,gender:'M',email:'Dustin@gmail.com'}]);
 db.employee.insert([{empId:999,empName:'Lucas',doj:22-06-21,salary:70000,gender:'M',email:'Lucas@gmail.com',password:'LUCAS'}]);
+"""add nodemodules back to angular"""""
